@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1062px;
+    margin: auto;
+}
+.community{
+    padding: 151px 0 178px;
+    background-color: lightgray;
+    position: relative;
+    overflow: hidden;
+    min-height: 150vh;
+}
+.text{
+    max-width: 298px;
+    text-align: center;
+}
+.community .container{
+    position: relative;
+}
+.navimg{
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.slider{
+    width: 1250px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-96px);
+}
+.girl{
+    background-image: url(../images/userpic-wrapper.png);
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}

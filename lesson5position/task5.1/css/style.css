@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+header, footer{
+    background-color: rgb(114, 197, 197);
+    padding: 50px 0;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    padding: 50px 0;
+}
+
+.service{
+    background-color: rgba(150, 43, 4, 0.815);
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: 0;
+}
+.service a{
+    color: #fff;
+}
+.service p{
+    font-size: 30px;
+    font-weight: bold;
+}
+li{
+    display: inline-block;
+}
+
+#last-link{
+    color: blue;
+}
+nav h1{
+    margin-bottom: 30px;
+}
+section h2{
+    color: crimson;
+}
+p{
+    font-size: 22px;
+}
+.team{
+    background-color: rgba(255, 255, 0, 0.637);
+    padding: 20px;
+}
+.pic{
+    position: absolute;
+    /*top: 30px;
+    left: 50px;*/
+    right: 0;
+    top: 0;
+}
+.popup{
+    width: 400px;
+    background-color: yellow;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*margin-top: -100px;
+    margin-left: -200px;*/
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px #000;
+}
+.popup h2{
+    color: rgb(247, 144, 159);
+}
+.close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    right: 3px;
+    background-color: red;
+    padding: 5px;
+    color: #fff;
+    border: none;
+}
